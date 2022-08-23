@@ -1,0 +1,17 @@
+.input {
+    width: 100%;
+
+    input {
+        border: 0;
+        outline: none;
+        padding: 20px 30px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+        width: calc(100% - 60px);
+        font-size: 16px;
+        border-radius: 30px;
+
+        &:focus {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+}

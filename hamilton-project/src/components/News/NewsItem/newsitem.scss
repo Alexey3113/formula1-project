@@ -1,0 +1,40 @@
+.newsitem {
+
+    .blockContainer {
+        align-items: normal;
+        padding: 30px 70px;
+        max-width: 1090px;
+    }
+
+    &__title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    &__date {
+        margin-bottom: 25px;
+        opacity: 0.7;
+    }
+
+    &__photo {
+        img {
+            max-width: 644px;
+            max-height: 429px;
+        }
+        
+        margin-bottom: 25px;
+    }
+
+    hr {
+        height: 2px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .addititional-info {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+}

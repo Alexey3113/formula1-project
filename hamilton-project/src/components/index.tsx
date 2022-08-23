@@ -1,0 +1,7 @@
+export {Header} from "./Header/Header"
+export {Main} from "./Main/Main"
+export {News} from "./News/News"
+export {NewsItem} from "./News/NewsItem/NewsItem"
+export {VideoPlayer} from "./VideoPlayer/VideoPlayer"
+export {Biography} from "./Biography/Biography"
+export {CreateNews} from "./CreateNews/CreateNews"

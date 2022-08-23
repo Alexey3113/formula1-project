@@ -1,0 +1,47 @@
+.header {
+    background: #212121FF;
+    position: sticky;
+    top: 0;
+    min-height: 60px;
+    width: 100%;
+    // padding: 10px 20px 20px 20px;
+    z-index: 20;
+    
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        cursor: pointer;
+    }
+
+    &__navigation {
+        display: flex;
+
+        &_link {
+            color: #FFFFFF;
+            opacity: 0.7;
+            margin-right: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            
+            &.active {
+                opacity: 1;
+                
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    background: #FFFFFF;
+                    margin-top: 5px;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}

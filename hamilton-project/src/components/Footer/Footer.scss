@@ -1,0 +1,37 @@
+.footer {
+    background: #212121FF;
+    // width: 100%;
+    padding: 30px 0;
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        color: #FFFFFF;
+    }
+
+    &__copyright {
+        margin-top: 20px;
+        color: #FFFFFF;
+
+        span {
+            color: #D9AC10FF;
+        }
+    }
+    &__socials {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        width: 120px;
+        justify-content: space-between;
+        // gap: 15;
+
+        &_icon {
+            cursor: pointer;
+            width: 24px;
+        }
+    }
+}
