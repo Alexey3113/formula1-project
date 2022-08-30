@@ -21,32 +21,6 @@ export const News = () => {
         url: "http://localhost:5000/api/articles/",
     })
 
-    console.log("data", data)
-
-    const fakeSrcImgs: any = useMemo(
-        () => ({
-            news1: news1,
-            news2: news2,
-            news3: news3,
-            news4: news4,
-            news5: news5,
-            news6: news6,
-            news7: news7,
-            news8: news8,
-            news9: news9,
-        }),
-        []
-    )
-    const typesColumn: any = useMemo(
-        () => ({
-            "1": "one_column_news",
-            "2": "two_column_news",
-            "3": "three_column_news",
-        }),
-        []
-    )
-
-
     if (isLoading) return <div></div>
 
     return (

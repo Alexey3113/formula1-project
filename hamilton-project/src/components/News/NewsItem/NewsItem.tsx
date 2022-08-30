@@ -41,11 +41,6 @@ export const NewsItem = () => {
 
     useEffect(() => {
         doRightString()
-        console.log(
-            "date now",
-            new Date(Date.now()).getDate(),
-            new Date(Date.now()).getMonth()
-        )
     }, [data])
 
     let myData: any = new Date(Date.parse(data?.createdAt))
@@ -53,7 +48,6 @@ export const NewsItem = () => {
         myData.getDay() + 1
 
     const date = useMemo(() => {
-        console.log("My data", myData)
         if (myData) {
             return `${myData.getDate()} ${
                 months[dayMonth]
